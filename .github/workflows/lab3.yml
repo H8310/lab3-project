@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java Code
-        run: javac src/main/java/com/example/lab3-project.java
+        run: javac src/main/java/com/lab3-project.java
 
       - name: Run Tests (if using Maven)
         run: mvn test
